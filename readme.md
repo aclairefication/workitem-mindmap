@@ -1,4 +1,4 @@
-To run this test
+To run this script
 
 ```npm install```
 
