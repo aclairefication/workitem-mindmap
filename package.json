@@ -1,0 +1,22 @@
+{
+  "name": "export_mindmap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "main": "node export_mindmap.js",
+    "secondary": "node add_tests_to_mindmap.js",
+    "excel": "node excel_to_csv.js",
+    "test": "ava --verbose test/*s.tests.js"
+  },
+  "keywords": [],
+  "author": "cam",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "fs-extra": "^1.0.0",
+    "xmlbuilder": "8.2.2",
+    "x2js": "3.1.0",
+    "lodash": "4.17.4"
+  }
+}
