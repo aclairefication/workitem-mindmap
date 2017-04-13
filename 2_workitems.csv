@@ -1,0 +1,3 @@
+ID,Title,Project,Iteration,Backlog Group,Team,Source,Priority,Class Of Service,Status,State,Epic ID,Portfolio Item,ITKahnbahn,Analysis Status,Test Type,Classof Service,Test Branch,Functional Area,Estimate,Detail Estimate,To Do,Done
+S-12345,Story,Release 1,1,Tech Chores,Team 1,(None),Low,(None),Done,Closed,E-67890,Low Hanging Fruit,(None),(None),(None),(None),(None),(None),,,,0
+D-54321,Defect,Release 1,1,Performance,Team 2,(None),(None),(None),(None),Active,(No Epic),(No Epic),(None),(None),(None),(None),(None),(None),1,,,0
