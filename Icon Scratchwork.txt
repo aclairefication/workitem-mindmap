@@ -1,0 +1,232 @@
+
+    // Freemind also has faces, but they all look the same to me so I don't use them
+        // {iconSmiley: "'icon', {'BUILTIN': 'ksmiletris'}"},
+        // {iconSmileyNeutral: "'icon', {'BUILTIN': 'smiley-neutral'}"},
+        // {iconSmileySuprised: "'icon', {'BUILTIN': 'smiley-oh'}"},
+        // {iconSmileyAngry: "'icon', {'BUILTIN': 'smiley-angry'}"},
+        // {iconSmileyFrown: "'icon', {'BUILTIN': 'smily_bad'}"},
+
+    // Note: These icons should probably be reserved for statuses
+        // {iconWarning: "'icon', {'BUILTIN': 'messagebox_warning'}"},
+        // {iconStopSign: "'icon', {'BUILTIN': 'stop-sign'}"},
+        // {iconNoEntrySign: "'icon', {'BUILTIN': 'closed'}"},
+        // {iconInfo: "'icon', {'BUILTIN': 'info'}"},
+        // {iconOK: "'icon', {'BUILTIN': 'button_ok'}"},
+        // {iconCancel: "'icon', {'BUILTIN': 'button_cancel'}"},
+
+    // Note: These icons should probably be reserved for manual use
+        // {iconQuestionMark: "'icon', {'BUILTIN': 'help'}"},
+        // {iconExclamationMark: "'icon', {'BUILTIN': 'yes'}"},
+        // {iconBrokenLine: "'icon', {'BUILTIN': 'broken-line'}"},
+        // {iconLightbulb: "'icon', {'BUILTIN': 'idea'}"},
+        // {iconMagnifyingGlass: "'icon', {'BUILTIN': 'xmag'}"},
+        
+    var iconsForLabels = 
+      [ {iconMagicWand: "'icon', {'BUILTIN': 'wizard'}"},
+        {iconBell: "'icon', {'BUILTIN': 'bell'}"},
+        {iconStar: "'icon', {'BUILTIN': 'bookmark'}"},
+        {iconPenguin: "'icon', {'BUILTIN': 'penguin'}"},
+        {iconFlower: "'icon', {'BUILTIN': 'licq'}"},
+        {iconButterfly: "'icon', {'BUILTIN': 'freemind_butterfly'}"},
+        {iconRocket: "'icon', {'BUILTIN': 'launch'}"},
+        {iconMusic: "'icon', {'BUILTIN': 'knotify'}"},
+        {iconKey: "'icon', {'BUILTIN': 'password'}"},
+        {iconPencil: "'icon', {'BUILTIN': 'pencil'}"},
+        {iconNumber0: "'icon', {'BUILTIN': 'full-0'}"},
+        {iconNumber1: "'icon', {'BUILTIN': 'full-1'}"},
+        {iconNumber2: "'icon', {'BUILTIN': 'full-2'}"},
+        {iconNumber3: "'icon', {'BUILTIN': 'full-3'}"},
+        {iconNumber4: "'icon', {'BUILTIN': 'full-4'}"},
+        {iconNumber5: "'icon', {'BUILTIN': 'full-5'}"},
+        {iconNumber6: "'icon', {'BUILTIN': 'full-6'}"},
+        {iconNumber7: "'icon', {'BUILTIN': 'full-7'}"},
+        {iconNumber8: "'icon', {'BUILTIN': 'full-8'}"},
+        {iconNumber9: "'icon', {'BUILTIN': 'full-9'}"},
+        {iconBlackFlag: "'icon', {'BUILTIN': 'flag-black'}"},
+        {iconBlueFlag: "'icon', {'BUILTIN': 'flag-blue'}"},
+        {iconGreenFlag: "'icon', {'BUILTIN': 'flag-green'}"},
+        {iconOrangeFlag: "'icon', {'BUILTIN': 'flag-orange'}"},
+        {iconPinkFlag: "'icon', {'BUILTIN': 'flag-pink'}"},
+        {iconRedFlag: "'icon', {'BUILTIN': 'flag'}"},
+        {iconYellowFlag: "'icon', {'BUILTIN': 'flag-yellow'}"},
+        {iconHouse: "'icon', {'BUILTIN': 'gohome'}"},
+        {iconPhone: "'icon', {'BUILTIN': 'kaddressbook'}"},
+        {iconFolder: "'icon', {'BUILTIN': 'folder'}"},
+        {iconMailbox: "'icon', {'BUILTIN': 'korn'}"},
+        {iconEnvelope: "'icon', {'BUILTIN': 'Mail'}"},
+        {iconPaperclip: "'icon', {'BUILTIN': 'attach'}"},
+        {iconBriefcase: "'icon', {'BUILTIN': 'desktop_new'}"},
+        {iconEmail: "'icon', {'BUILTIN': 'kmail'}"},
+        {iconList: "'icon', {'BUILTIN': 'list'}"},
+        {iconEdit: "'icon', {'BUILTIN': 'edit'}"},
+        {iconBomb: "'icon', {'BUILTIN': 'clanbomber'}"},
+        {iconRedLight: "'icon', {'BUILTIN': 'stop'}"},
+        {iconYellowLight: "'icon', {'BUILTIN': 'prepare'}"},
+        {iconGreenLight: "'icon', {'BUILTIN': 'go'}"},
+        {iconBackArrow: "'icon', {'BUILTIN': 'back'}"},
+        {iconForwardArrow: "'icon', {'BUILTIN': 'forward'}"},
+        {iconUpArrow: "'icon', {'BUILTIN': 'up'}"},
+        {iconDownArrow: "'icon', {'BUILTIN': 'down'}"},
+        {iconCalendar: "'icon', {'BUILTIN': 'calendar'}"},
+        {iconClock: "'icon', {'BUILTIN': 'clock'}"},
+        {iconHourglass: "'icon', {'BUILTIN': 'hourglass'}"},
+        {iconFamily: "'icon', {'BUILTIN': 'family'}"},
+        {iconRedHair: "'icon', {'BUILTIN': 'female1'}"},
+        {iconBlondeHair: "'icon', {'BUILTIN': 'female2'}"},
+        {iconBrownHair: "'icon', {'BUILTIN': 'male1'}"},
+        {iconBlackHair: "'icon', {'BUILTIN': 'male2'}"},
+        {iconTwoPeople: "'icon', {'BUILTIN': 'fema'}"},
+        {iconThreePeople: "'icon', {'BUILTIN': 'group'}"}
+       ]
+
+
+function buildNode(BacklogItem, currentNode){
+    // backlogItemBlockingText = backlogItemElements[3];
+    backlogItemID = BacklogItem.Id;
+    backlogItemName = BacklogItem.Title;
+    backlogItemRequester = BacklogItem["Requested By"] != null  && (typeof BacklogItem["Requested By"] !== 'undefined') ? BacklogItem["Requested By"] : '';
+    backlogItemStatus = BacklogItem["Current State"];
+
+    //Use status to color the backlog item nodes
+    var backgroundColor = setBackgroundColor(BacklogItem, backlogItemStatus);
+
+    //When status is not set, show a value in the mindmap
+    let status = backlogItemStatus === '' ? '(None)' : backlogItemStatus;
+
+    //only want to see blocking items text when there are blocking items
+    // let blocked = backlogItemBlockingText === 'Blocking Issues: 0' ? '' : backlogItemBlockingText;
+
+    //When owner is not set, show a value in the mindmap
+    let owner = backlogItemRequester === '' ? '(None)' : backlogItemRequester;
+
+    currentNode = currentNode.ele('node', {
+        'BACKGROUND_COLOR': backgroundColor, //derived from Status
+        'TEXT':backlogItemID + ' '+ backlogItemName + ' Status: ' + status + ' ' + ' Owner: ' + owner
+        // 'POSITION': 'right' //TODO balance the tree between left & right?
+        ,'FOLDED': true
+    });
+
+    // if(blocked !== ''){
+    //     //An icon node looks like this <icon BUILTIN="messagebox_warning"/>
+        // var msg_warn = {'BUILTIN': 'messagebox_warning'};
+        // currentNode.ele('icon', msg_warn);
+    // }    
+
+    setNodeIcons(BacklogItem, currentNode);
+
+    //Add a child node for the URL
+    addLinkToNode(BacklogItem, currentNode)
+
+    workitems.push(BacklogItem.Id);
+}
+
+function buildStatusList(currentStatus){
+    //Build the list of statuses
+    if (currentStatus == ""){
+        currentStatus = "not set";
+    }
+    if(!statuses.includes(currentStatus)){
+        statuses.push(currentStatus);
+    }   
+
+    //TODO set icons for statuses?
+}
+
+function buildNonEpicLabelsList(BacklogItem){
+    //make a list of the non-epic labels
+    //TODO use these labels to add icons to the nodes in the tree?
+    thisFeaturesLabels = BacklogItem.Labels.split(", ");
+    thisFeaturesLabels.forEach(function(currentLabel){
+        if (!epicLabels.includes(currentLabel) && !otherLabels.includes(currentLabel) 
+            && currentLabel !== ''){
+
+            // var i = 0;
+            // do {
+            //     if(otherLabels.length != 0){
+            //         var knownLabel = false;
+            //         for (i = 0; i < otherLabels.length; i++) { 
+            //             if(otherLabels[i] === currentLabel){
+            //                 knownLabel = true;                            
+            //             }
+            //         }
+
+            //         if(!knownLabel){
+            //             console.log(currentLabel, " is a new label");
+            //             otherLabels.push(currentLabel);                    
+            //         }else{
+            //             console.log("Have already seen label ", currentLabel);
+            //         }                   
+            //     } else{
+            //             console.log("otherLabels is empty");
+                        otherLabels.push(currentLabel);                    
+            //     }
+
+            //     i++;
+            // }
+            // while (i < otherLabels.length);
+
+        }           
+    })
+
+}
+
+function setNodeIcons(BacklogItem, currentNode){
+    //TODO Add XML to the mindmap to set icons for nodes based on otherLabels for the node
+    //Note: Make sure not to use the messagebox_warning icon since that's reserved for blocked
+    //e.g. A blocked icon for a node looks like this <icon BUILTIN="messagebox_warning"/>
+    //     currentNode.ele('icon', {'BUILTIN': 'messagebox_warning'});
+
+    thisFeaturesLabels = BacklogItem.Labels.split(", ");
+    //Add an icon for each element in the array of labels
+    for (i = 0; i < thisFeaturesLabels.length; i++) { 
+        // var elementText = iconTextArray[i];
+        // currentNode.ele(iconTextArray[i]);
+        // console.log(currentNode.ele(iconTextArray[i]));
+        currentNode.ele('icon', iconObjArray[i]);
+        // console.log(BacklogItem.Title, iconObjArray[i]);
+    }
+
+
+    // thisFeaturesLabels = BacklogItem.Labels.split(", ");
+    // console.log(BacklogItem.Title, thisFeaturesLabels)
+
+// console.log(otherLabels);
+    // for (i = 0; i < otherLabels.length; i++) { 
+    //     for(j = 0; j < thisFeaturesLabels.length; j++){        
+    //         console.log(otherLabels[i], thisFeaturesLabels[j]);
+    //         if(thisFeaturesLabels[j] == otherLabels[i]){
+    //             // currentNode = currentNode.ele(otherLabels[i]);                 
+    //         }
+    //     }
+    // }
+
+    // thisFeaturesLabels.forEach(function(currentLabel){
+    //     for(key in otherLabels) {
+    //         // console.log(otherLabels[key], currentLabel);
+    //         if(key == currentLabel){
+    //             console.log(otherLabels[key]);
+    //             currentNode = currentNode.ele(otherLabels[key]);                
+    //         }
+    //     }
+    // }) 
+
+}
+
+function setLabelIcon(LabelsArray){
+
+    // //Add an icon to the last element in the array of labels
+    // var length = LabelsArray.length
+    // if(LabelsArray.length > 0){
+    //     return iconsForLabels[length-1];
+    // }else{
+    //     //For the first label to be added, return the first icon
+    //     return iconsForLabels[0];        
+    // }
+
+    //Add an icon for each element in the array of labels
+    for (i = 0; i < LabelsArray.length; i++) { 
+        var currentLabel = LabelsArray[i];
+        LabelsArray[i] = [currentLabel, iconsForLabels[i]];
+    }
+    
+}
