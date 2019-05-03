@@ -1,4 +1,5 @@
-//Export CSV from VersionOne LifeCycle and transform it into a Freemind XML file (with .mm file extension)
+//Export CSV from backlog management tool
+//and transform it into a Freemind XML file (with .mm file extension)
 const fs = require('fs-extra'),
     builder = require('xmlbuilder'),
     X2JS = require('x2js');
@@ -10,8 +11,10 @@ let mindmap = builder.begin().ele('map', { 'version': '1.0.1' });
 var projectName = '';
 let projectNode;
 
-fs.readFile('Portfolio_Items.xls', 'utf-8', function(err, xml) {
+//read the input file
+fs.readFile('Backlog.csv', 'utf-8', function(err, xml) {
 
+    //get rid of stupid headers & footers we don't need
     bodyString = xml.slice(xml.indexOf('<tbody>'),xml.indexOf("</table></td>"));
     var x2js = new X2JS();
     var jsonObj = x2js.xml2js(bodyString);
@@ -23,6 +26,8 @@ fs.readFile('Portfolio_Items.xls', 'utf-8', function(err, xml) {
 
     let currentNode = projectNode;
 
+    //VALUE ADD FOR USER: Not copy-pasting manually into another tool
+    //How deep does this tree go?
     //Find the highest number for level counter for the input file
     var parentLevel = _.reduce(jsonArrayOfBacklogItemRows, function(highestLevel, row){
         return Math.max(highestLevel, _.reduce(row.td,function(rowHighestLevel, entry){
@@ -33,6 +38,7 @@ fs.readFile('Portfolio_Items.xls', 'utf-8', function(err, xml) {
         }, 0));
     }, 0);
 
+    //process each backlog item & put it in the right part of the tree
     jsonArrayOfBacklogItemRows.forEach(function(row) {
         //strip out indentation empty elements
         row.td = _.dropWhile(row.td, function(entry){
@@ -49,9 +55,11 @@ fs.readFile('Portfolio_Items.xls', 'utf-8', function(err, xml) {
         backlogItemOwner = backlogItemElements[4].__text != null  && (typeof backlogItemElements[4].__text !== 'undefined') ? backlogItemElements[4].__text : '';
         backlogItemStatus = backlogItemElements[5].__text != null  && (typeof backlogItemElements[5].__text !== 'undefined') ? backlogItemElements[5].__text : '';
 
+        //VALUE ADD FOR USER: Not hand-coloring any more!
         //Conditionally set the background color based on Status of item
         let backgroundColor = setBackgroundColor(backlogItemStatus);
 
+        //VALUE ADD FOR USER: Show more info for each backlog item
         //When status is not set, show a value in the mindmap
         let status = backlogItemStatus === '' ? '(None)' : backlogItemStatus;
         //only want to see blocking items text when there are blocking items
@@ -66,6 +74,7 @@ fs.readFile('Portfolio_Items.xls', 'utf-8', function(err, xml) {
             }
         }
 
+        //VALUE ADD TO USER: Visualize "doneness" of the whole tree
         currentNode = currentNode.ele('node', {
             'BACKGROUND_COLOR': backgroundColor, //derived from Status
             'TEXT':backlogItemID + ' '+ backlogItemName + ' Status: ' + status + ' ' + blocked + ' Owner: ' + owner
@@ -95,6 +104,7 @@ fs.readFile('Portfolio_Items.xls', 'utf-8', function(err, xml) {
 
 });
 
+//VALUE ADD TO USER: Colors depend on data we have, so no more manually coloring!
 function setBackgroundColor(Status){
     //TODO refactor to take color-status associations from a config file
     //Conditionally set the background color based on Status of item
