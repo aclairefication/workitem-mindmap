@@ -1,0 +1,414 @@
+Project,Epic,Workitem
+Release,E-06821 Epic 1,S-39025 Story 1
+Release,(No Epic),S-44511 Story 2
+Release,(No Epic),"D-08529 Defect 1 (aka, multiedit)"
+Release,(No Epic),S-48207 Story 3
+Release,(No Epic),S-48971 Story 4
+Release,E-04957 Epic 2,S-52374 Story 5
+Release,(No Epic),D-09265 Defect 2
+Release,(No Epic),D-09277 Defect 3
+Release,(No Epic),D-09401 Defect 4
+Release,(No Epic),S-53594 Story 6
+Release,E-01496 Epic 3,"S-54209 Story 7 re-use/copy"
+Release,E-01496 Epic 3,S-54673 Story 8
+Release,E-05577 Epic 4,S-54782 Story 9
+Release,E-04754 Epic 5,S-54794 Story 10
+Release,(No Epic),D-09886 Defect 5
+Release,(No Epic),S-55550 Story 11
+Release,(No Epic),S-55842 Story 12
+Release,(No Epic),D-10046 Defect 6
+Release,E-06511 Epic 6,D-10096 Defect 7
+Release,E-06323 Epic 7,S-56062 Story 13
+Release,E-06498 Epic 8,S-56071 Story 14
+Release,E-06323 Epic 7,S-56090 Story 15
+Release,E-06323 Epic 7,S-56130 Story 16
+Release,E-06498 Epic 8,S-56132 Story 17
+Release,E-05665 Epic 9,S-56133 Story 18
+Release,E-05665 Epic 9,S-56134 Story 19
+Release,E-06323 Epic 7,S-56136 Story 20
+Release,E-06323 Epic 7,S-56137 Story 21
+Release,E-06323 Epic 7,S-56138 Story 22
+Release,E-05665 Epic 9,S-56139 Story 23
+Release,E-05665 Epic 9,S-56140 Story 24
+Release,E-05665 Epic 9,S-56141 Story 25
+Release,E-05665 Epic 9,S-56142 Story 26
+Release,E-05665 Epic 9,S-56143 Story 27
+Release,E-06323 Epic 7,S-56152 Story 28
+Release,E-06323 Epic 7,S-56153 Story 29
+Release,E-06323 Epic 7,S-56155 Story 30
+Release,(No Epic),S-56457 Story 31
+Release,E-06392 Epic 10,S-56915 Story 32
+Release,(No Epic),"D-10310 Defect/Enhancement 8"
+Release,E-06498 Epic 8,S-57083 Story 33
+Release,E-04416 Epic 11,S-57364 Story 34
+Release,(No Epic),"S-58092 Story 35 ""Replace"" to ""Copy Value"" on page"
+Release,(No Epic),"D-10581 Defect 9: correction"
+Release,(No Epic),S-58256 Story 36
+Release,(No Epic),D-10613 Defect 10
+Release,E-06451 Epic 12,S-58278 Story 37
+Release,E-06324 Epic 13,S-58297 Story 38
+Release,E-06511 Epic 6,S-58299 Story 39
+Release,E-06323 Epic 7,S-58309 Story 40
+Release,(No Epic),D-10655 Defect 11
+Release,E-06511 Epic 6,D-10656 Defect 12
+Release,(No Epic),D-10658 Defect 13
+Release,E-06511 Epic 6,D-10659 Defect 14
+Release,E-06323 Epic 7,S-58352 Story 41
+Release,E-06323 Epic 7,S-58379 Story 42
+Release,E-06323 Epic 7,S-58396 Story 43
+Release,E-05787 Epic 14,S-58448 Story 44
+Release,(No Epic),D-10709 Defect 15
+Release,(No Epic),D-10728 Defect 16
+Release,(No Epic),D-10730 Defect 17
+Release,(No Epic),D-10731 Defect 18
+Release,E-06323 Epic 7,S-58529 Story 45
+Release,E-06433 Epic 15,S-58530 Story 46
+Release,E-06497 Epic 16,S-58558 Story 47
+Release,E-06497 Epic 16,S-58559 Story 48
+Release,E-06497 Epic 16,S-58560 Story 49
+Release,E-05787 Epic 14,S-58561 Story 50
+Release,E-06325 Epic 17,S-58562 Story 51
+Release,E-06325 Epic 17,S-58563 Story 52
+Release,E-06325 Epic 17,S-58564 Story 53
+Release,E-06325 Epic 17,S-58565 Story 54
+Release,E-06325 Epic 17,S-58566 Story 55
+Release,E-06325 Epic 17,S-58567 Story 56
+Release,E-06323 Epic 7,S-58575 Story 57
+Release,E-06323 Epic 7,S-58576 Story 58
+Release,E-06392 Epic 10,D-10750 Defect 19
+Release,E-06497 Epic 16,S-58589 Story 59
+Release,E-06497 Epic 16,S-58590 Story 60
+Release,E-06392 Epic 10,D-10762 Defect 20
+Release,E-06323 Epic 7,S-58636 Story 61
+Release,E-06327 Epic 18,S-58642 Story 62
+Release,E-06327 Epic 18,S-58645 Story 63
+Release,E-06327 Epic 18,S-58646 Story 64
+Release,(No Epic),D-10776 Defect 21
+Release,E-06433 Epic 15,S-58822 Story 65
+Release,E-01496 Epic 3,S-58835 Story 66
+Release,(No Epic),D-10785 Defect 22
+Release,E-06392 Epic 10,"D-10796 Defect 23, 24 combined"
+Release,(No Epic),D-10798 Defect 25
+Release,E-06511 Epic 6,D-10818 Defect 26
+Release,E-06323 Epic 7,S-59003 Story 67
+Release,E-05568 Epic 19,D-10826 Defect 27
+Release,E-06434 Epic 20,S-59013 Story 68
+Release,E-06433 Epic 15,S-59016 Story 69
+Release,(No Epic),D-10841 Defect 28
+Release,E-06036 Epic 21,D-10846 Defect 29
+Release,E-06392 Epic 10,D-10857 Defect 30
+Release,(No Epic),D-10863 Defect 31
+Release,E-06433 Epic 15,S-59056 Story 70
+Release,E-06433 Epic 15,D-10871 Story 71
+Release,(No Epic),D-10872 Defect 31
+Release,E-05787 Epic 14,S-59062 Story 72
+Release,E-04416 Epic 11,D-10888 Defect 32
+Release,E-06511 Epic 6,S-59074 Story 73
+Release,(No Epic),D-10891 Defect 33
+Release,E-04569 Epic 22,D-10900 Defect 34
+Release,(No Epic),D-10901 Defect 35
+Release,(No Epic),D-10902 Defect 36
+Release,(No Epic),D-10906 Defect 37
+Release,(No Epic),D-10907 Defect 38
+Release,E-04569 Epic 22,D-10909 Defect 39
+Release,E-06434 Epic 20,D-10910 Defect 40
+Release,E-06434 Epic 20,"S-59102 Story 74"
+Release,E-06434 Epic 20,S-59103 Story 75
+Release,E-06434 Epic 20,S-59104 Story 76
+Release,E-06434 Epic 20,S-59105 Story 77
+Release,E-06434 Epic 20,"S-59106 Story 78"
+Release,E-06434 Epic 20,D-10913 Defect 41
+Release,E-06434 Epic 20,"D-10914 Defect 42"
+Release,E-06434 Epic 20,S-59115 Story 79
+Release,E-06392 Epic 10,S-59199 Story 80
+Release,E-06392 Epic 10,S-59200 Story 81
+Release,E-06392 Epic 10,S-59201 Story 82
+Release,(No Epic),D-10929 Defect 43
+Release,E-06434 Epic 20,"S-59209 Story 83"
+Release,E-06444 Epic 23,S-59213 Story 84
+Release,E-06433 Epic 15,D-10937 Defect 44
+Release,E-06433 Epic 15,D-10938 Defect 45
+Release,E-06392 Epic 10,S-59259 Story 85
+Release,E-06451 Epic 12,D-10942 Defect 46
+Release,E-06511 Epic 6,S-59267 Story 86
+Release,(No Epic),"D-10949 Defect 47"
+Release,E-06433 Epic 15,D-10952 Defect 48
+Release,E-06511 Epic 6,D-10957 Defect 49
+Release,(No Epic),D-10958 Defect 50
+Release,E-06451 Epic 12,D-10961 Defect 51
+Release,E-06451 Epic 12,D-10962 Defect 52
+Release,E-06511 Epic 6,D-10963 Defect 53
+Release,E-06511 Epic 6,D-10964 Defect 54
+Release,E-06497 Epic 16,S-59305 Story 87
+Release,E-06434 Epic 20,S-59306 Story 88
+Release,(No Epic),D-10972 Defect 55
+Release,E-06522 Epic 24,S-59320 Story 89
+Release,E-06522 Epic 24,S-59321 Story 90
+Release,E-06511 Epic 6,D-10973 Defect 56
+Release,E-06451 Epic 12,D-10974 Defect 57
+Release,E-06451 Epic 12,D-10975 Defect 58
+Release,E-06434 Epic 20,S-59331 Story 91
+Release,E-06434 Epic 20,"S-59332 Story 92"
+Release,E-06434 Epic 20,S-59333 Story 93
+Release,E-06433 Epic 15,D-10976 Defect 59
+Release,(No Epic),D-10982 Defect 60
+Release,E-06451 Epic 12,D-10983 Defect 61
+Release,E-06451 Epic 12,D-10985 Defect 62
+Release,E-06511 Epic 6,D-10989 Defect 63
+Release,E-06524 Epic 25,S-59377 Story 94
+Release,E-06524 Epic 25,S-59384 Story 95
+Release,E-06444 Epic 23,S-59391 Story 96
+Release,E-06526 Epic 26,S-59392 Story 97
+Release,E-06526 Epic 26,S-59393 Story 98
+Release,E-05787 Epic 14,S-59400 Story 99
+Release,E-06449 Epic 27,S-59418 Story 100
+Release,E-06434 Epic 20,D-11004 Defect 64
+Release,E-06434 Epic 20,D-11005 Defect 65
+Release,E-06511 Epic 6,D-11006 Defect 66
+Release,E-06511 Epic 6,D-11007 Defect 67
+Release,E-06511 Epic 6,D-11008 Defect 68
+Release,E-06511 Epic 6,D-11009 Defect 69
+Release,(No Epic),S-59463 Story 101
+Release,E-06327 Epic 18,D-11016 Defect 70
+Release,E-06497 Epic 16,D-11024 Defect 71
+Release,E-06560 Epic 28,S-59514 Story 102
+Release,E-06444 Epic 23,S-59519 Story 103
+Release,E-06449 Epic 27,S-59520 Story 104
+Release,E-06449 Epic 27,S-59521 Story 105
+Release,E-06449 Epic 27,S-59522 Story 106
+Release,E-06561 Epic 29,S-59546 Story 107
+Release,E-06450 Epic 30,S-59552 Story 108
+Release,E-06450 Epic 30,S-59553 Story 109
+Release,E-06563 Epic 31,D-11032 Defect 72
+Release,E-06563 Epic 31,"D-11033 Defect 73"
+Release,E-06617 Epic 32,"S-59556 Story 110"
+Release,E-06451 Epic 12,D-11036 Defect 74
+Release,E-06451 Epic 12,D-11041 Defect 75
+Release,E-06451 Epic 12,D-11044 Defect 76
+Release,E-06451 Epic 12,"D-11051 Defect 77"
+Release,E-06522 Epic 24,S-59688 Story 111
+Release,E-06522 Epic 24,S-59689 Story 112
+Release,(No Epic),TS-01517 Task 1
+Release,(No Epic),TS-01518 Task 2
+Release,(No Epic),TS-01519 Task 3
+Release,(No Epic),TS-01520 Task 4
+Release,(No Epic),TS-01521 Task 5
+Release,(No Epic),TS-01522 Task 6
+Release,(No Epic),TS-01523 Task 7
+Release,(No Epic),TS-01524 Task 8
+Release,(No Epic),TS-01525 Task 9
+Release,(No Epic),TS-01526 Task 10
+Release,(No Epic),TS-01527 Task 11
+Release,(No Epic),TS-01528 Task 12
+Release,(No Epic),TS-01529 Task 13
+Release,(No Epic),TS-01530 Task 14
+Release,(No Epic),TS-01531 Task 15
+Release,(No Epic),TS-01532 Task 16
+Release,(No Epic),TS-01533 Task 17
+Release,(No Epic),TS-01534 Task 18
+Release,(No Epic),TS-01535 Task 19
+Release,(No Epic),TS-01536 Task 20
+Release,(No Epic),TS-01537 Task 21
+Release,(No Epic),TS-01538 Task 22
+Release,(No Epic),TS-01539 Task 23
+Release,(No Epic),TS-01540 Task 24
+Release,(No Epic),TS-01543 Task 25
+Release,(No Epic),TS-01544 Task 26
+Release,(No Epic),TS-01545 Task 27
+Release,E-06451 Epic 12,D-11059 Defect 78
+Release,E-06451 Epic 12,D-11063 Defect 79
+Release,E-06451 Epic 12,D-11064 Defect 80
+Release,(No Epic),TS-01547 Task 28
+Release,E-06617 Epic 32,S-59712 Story 113
+Release,E-06563 Epic 31,"S-59715 Story 114"
+Release,E-06523 Epic 33,S-59717 Story 115
+Release,E-06617 Epic 32,S-59719 Story 116
+Release,E-06617 Epic 32,S-59720 Story 117
+Release,E-06617 Epic 32,"S-59721 Story 118"
+Release,E-06617 Epic 32,"S-59734 Story 119"
+Release,E-06523 Epic 33,S-59783 Story 120
+Release,E-06523 Epic 33,S-59786 Story 121
+Release,E-06523 Epic 33,S-59787 Story 122
+Release,E-06523 Epic 33,S-59789 Story 123
+Release,E-06523 Epic 33,S-59790 Story 124
+Release,E-06523 Epic 33,S-59791 Story 125
+Release,E-06523 Epic 33,S-59792 Story 126
+Release,E-06523 Epic 33,S-59793 Story 127
+Release,E-06523 Epic 33,S-59797 Story 128
+Release,E-06451 Epic 12,D-11088 Defect 81
+Release,E-06522 Epic 24,S-59855 Story 129
+Release,E-05668 Epic 34,D-11094 Defect 82
+Release,E-05668 Epic 34,"D-11096 Defect 83"
+Release,E-05668 Epic 34,D-11098 Defect 84
+Release,E-05668 Epic 34,D-11099 Defect 85
+Release,E-05668 Epic 34,D-11104 Defect 86
+Release,E-06522 Epic 24,D-11105 Defect 87
+Release,E-06524 Epic 25,D-11106 Defect 88
+Release,E-06561 Epic 29,S-59888 Story 130
+Release,E-06561 Epic 29,S-59889 Story 131
+Release,E-06451 Epic 12,D-11107 Defect 89
+Release,E-06511 Epic 6,D-11108 Defect 90
+Release,E-06617 Epic 32,"S-59902 Story 132"
+Release,E-05668 Epic 34,D-11117 Defect 91
+Release,E-06444 Epic 23,D-11124 Defect 92
+Release,(No Epic),D-11126 Defect 93
+Release,E-06561 Epic 29,S-59928 Story 133
+Release,E-06323 Epic 7,S-59929 Story 134
+Release,E-05668 Epic 34,D-11129 Defect 94
+Release,(No Epic),D-11130 Defect 95
+Release,E-06433 Epic 15,D-11132 Defect 96
+Release,E-06444 Epic 23,D-11134 Defect 97
+Release,E-06511 Epic 6,D-11137 Defect 98
+Release,E-06451 Epic 12,D-11140 Defect 99
+Release,E-06522 Epic 24,S-59991 Story 135
+Release,E-06617 Epic 32,S-59994 Story 136
+Release,E-06444 Epic 23,D-11141 Defect 100
+Release,E-05668 Epic 34,D-11142 Defect 101
+Release,E-06451 Epic 12,D-11143 Defect 102
+Release,E-06444 Epic 23,"S-59999 Story 137"
+Release,E-06524 Epic 25,D-11146 Defect 103
+Release,E-06523 Epic 33,S-60048 Story 138
+Release,E-06444 Epic 23,D-11147 Defect 104
+Release,E-06451 Epic 12,D-11149 Defect 105
+Release,(No Epic),D-11150 Defect 106
+Release,(No Epic),D-11151 Defect 107
+Release,E-06451 Epic 12,D-11152 Defect 108
+Release,E-06444 Epic 23,S-60063 Story 139
+Release,E-06511 Epic 6,D-11155 Defect 109
+Release,E-06617 Epic 32,S-60073 Story 140
+Release,E-06617 Epic 32,D-11156 Defect 110
+Release,E-06617 Epic 32,D-11157 Defect 111
+Release,(No Epic),D-11158 Defect 112
+Release,(No Epic),D-11159 Defect 113
+Release,E-06444 Epic 23,D-11160 Defect 114
+Release,E-06444 Epic 23,D-11161 Defect 115
+Release,(No Epic),D-11162 Defect 116
+Release,E-06511 Epic 6,D-11163 Defect 117
+Release,(No Epic),TS-01548 Task 29
+Release,(No Epic),TS-01549 Task 30
+Release,(No Epic),TS-01550 Task 31
+Release,(No Epic),TS-01551 Task 32
+Release,(No Epic),TS-01552 Task 33
+Release,(No Epic),TS-01553 Task 34
+Release,(No Epic),TS-01554 Task 35
+Release,(No Epic),TS-01555 Task 36
+Release,(No Epic),TS-01556 Task 37
+Release,(No Epic),TS-01557 Task 38
+Release,(No Epic),TS-01558 Task 39
+Release,(No Epic),TS-01559 Task 40
+Release,(No Epic),TS-01560 Task 41
+Release,(No Epic),TS-01561 Task 42
+Release,(No Epic),TS-01562 Task 43
+Release,(No Epic),TS-01563 Task 44
+Release,(No Epic),TS-01564 Task 45
+Release,(No Epic),TS-01565 Task 46
+Release,(No Epic),TS-01566 Task 47
+Release,(No Epic),TS-01567 Task 48
+Release,(No Epic),TS-01568 Task 49
+Release,(No Epic),TS-01569 Task 50
+Release,(No Epic),TS-01571 Task 51
+Release,(No Epic),TS-01572 Task 52
+Release,(No Epic),TS-01573 Task 53
+Release,(No Epic),TS-01574 Task 54
+Release,(No Epic),TS-01575 Task 55
+Release,(No Epic),TS-01576 Task 56
+Release,(No Epic),TS-01577 Task 57
+Release,(No Epic),TS-01578 Task 58
+Release,(No Epic),TS-01579 Task 59
+Release,(No Epic),TS-01580 Task 60
+Release,(No Epic),TS-01581 Task 61
+Release,(No Epic),TS-01582 Task 62
+Release,(No Epic),TS-01583 Task 63
+Release,(No Epic),TS-01584 Task 64
+Release,(No Epic),TS-01585 Task 65
+Release,E-05668 Epic 34,D-11165 Defect 118
+Release,E-05668 Epic 34,D-11166 Defect 119
+Release,E-05668 Epic 34,D-11167 Defect 120
+Release,E-06511 Epic 6,S-60096 Story 141
+Release,E-05668 Epic 34,"D-11169 Defect 121"
+Release,(No Epic),TS-01586 Task 66
+Release,E-05668 Epic 34,D-11172 Defect 122
+Release,(No Epic),TS-01588 Task 67
+Release,(No Epic),TS-01589 Task 68
+Release,E-06617 Epic 32,D-11173 Defect 123
+Release,E-05668 Epic 34,D-11174 Defect 124
+Release,E-04957 Epic 2,S-60101 Story 142
+Release,E-05668 Epic 34,D-11176 Defect 125
+Release,(No Epic),D-11177 Defect 126
+Release,(No Epic),TS-01590 Task 69
+Release,E-04957 Epic 2,S-60102 Story 143
+Release,(No Epic),D-11179 Defect 127
+Release,(No Epic),TS-01591 Task 70
+Release,(No Epic),D-11182 Defect 128
+Release,(No Epic),D-11184 Defect 129
+Release,(No Epic),D-11185 Defect 130
+Release,E-06450 Epic 30,S-60109 Story 144
+Release,E-06450 Epic 30,S-60110 Story 145
+Release,E-06450 Epic 30,S-60111 Story 146
+Release,E-06450 Epic 30,S-60112 Story 147
+Release,E-06450 Epic 30,S-60113 Story 148
+Release,(No Epic),"D-11187 Defect 131"
+Release,(No Epic),D-11188 Defect 132
+Release,E-04957 Epic 2,D-11190 Defect 133
+Release,E-06450 Epic 30,S-60132 Story 149
+Release,E-05668 Epic 34,"D-11191 Defect 134"
+Release,E-06511 Epic 6,D-11192 Defect 135
+Release,E-06511 Epic 6,D-11196 Defect 136
+Release,E-06451 Epic 12,D-11197 Defect 137
+Release,E-06511 Epic 6,"D-11198 Defect 138"
+Release,(No Epic),D-11215 Defect 139
+Release,E-06524 Epic 25,S-60138 Story 150
+Release,E-06524 Epic 25,S-60139 Story 151
+Release,E-06511 Epic 6,D-11222 Defect 140
+Release,E-06561 Epic 29,S-60149 Story 152
+Release,E-06450 Epic 30,S-60156 Story 153
+Release,E-06450 Epic 30,S-60157 Story 154
+Release,E-05668 Epic 34,"D-11230 Defect 141"
+Release,E-05668 Epic 34,D-11231 Defect 142
+Release,(No Epic),D-11232 Defect 143
+Release,(No Epic),D-11233 Defect 144
+Release,(No Epic),D-11237 Defect 145
+Release,E-05409 Epic 35,S-60173 Story 155
+Release,E-06523 Epic 33,D-11238 Defect 146
+Release,(No Epic),D-11239 Defect 147
+Release,(No Epic),"D-11242 Defect 148"
+Release,E-04416 Epic 11,S-60200 Story 156
+Release,E-06392 Epic 10,S-60201 Story 157
+Release,(No Epic),D-11243 Defect 149
+Release,(No Epic),D-11245 Defect 150
+Release,E-06821 Epic 1,S-60226 Story 158
+Release,E-05454 Epic 36,TS-01592 S-54448 Story 159
+Release,E-05454 Epic 36,TS-01593 S-54448 Story 160
+Release,(No Epic),TS-01594 Task 71
+Release,(No Epic),TS-01595 Task 72
+Release,(No Epic),TS-01596 Task 73
+Release,(No Epic),TS-01597 Task 74
+Release,(No Epic),TS-01598 Task 75
+Release,(No Epic),TS-01599 Task 76
+Release,(No Epic),TS-01600 Task 77
+Release,(No Epic),TS-01601 Task 78
+Release,(No Epic),TS-01602 Task 79
+Release,(No Epic),TS-01603 Task 80
+Release,(No Epic),TS-01604 Task 81
+Release,(No Epic),TS-01605 Task 82
+Release,(No Epic),TS-01606 Task 83
+Release,(No Epic),TS-01607 Task 84
+Release,(No Epic),TS-01608 Task 85
+Release,(No Epic),TS-01609 Task 86
+Release,(No Epic),TS-01610 Task 87
+Release,(No Epic),TS-01611 Task 88
+Release,(No Epic),TS-01612 Task 89
+Release,(No Epic),TS-01613 Task 90
+Release,(No Epic),TS-01614 Task 91
+Release,(No Epic),TS-01615 Task 92
+Release,(No Epic),TS-01616 Task 93
+Release,(No Epic),TS-01617 Task 94
+Release,(No Epic),TS-01618 Task 95
+Release,(No Epic),TS-01619 Task 96
+Release,(No Epic),TS-01620 Task 97
+Release,(No Epic),TS-01621 Task 98
+Release,(No Epic),TS-01623 Task 99
+Release,(No Epic),TS-01625 Task 100
+Release,(No Epic),TS-01626 Task 101
+Release,E-06511 Epic 6,D-11252 Defect 151
+Release,E-06511 Epic 6,"D-11253 Defect 152"
