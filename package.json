@@ -10,7 +10,7 @@
     "test": "ava --verbose test/*s.tests.js"
   },
   "keywords": [],
-  "author": "cam",
+  "author": "aclairefication",
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
