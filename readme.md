@@ -12,6 +12,12 @@ Create a [mind map](https://en.wikipedia.org/wiki/Mind_map) of your backlog's ep
 - Manage your own engineering products or projects if you don't have a cross-functional team
 - Share progress with your boss or mentor in your next 1on1 meeting
 
+## What problem does this code solve?
+
+Manual reporting is a time suck. My friend (a client) asked for some help...
+
+[Slides](https://www.slideshare.net/aclairefication/blow-your-mind-mindmap-automation-in-node) or [Video](https://youtu.be/aTIB1_v6XuY)
+
 ## I'm sold! Now what?
 1. Clone this repo to local
 2. Export backlog from management tool (i.e. [Pivotal Tracker](https://www.pivotaltracker.com/)) & put it in the directory with the code
