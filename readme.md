@@ -12,6 +12,12 @@ Create a [mind map](https://en.wikipedia.org/wiki/Mind_map) of your backlog's ep
 - Manage your own engineering products or projects if you don't have a cross-functional team
 - Share progress with your boss or mentor in your next 1on1 meeting
 
+Hmm... I'd like to hear more... 
+
+How about [an article? [PDF]](https://www.stickyminds.com/sites/default/files/volume-issue/pdf/V16I1.pdf)
+
+How about your [blog posts](http://blog.aclairefication.com//?s=mindmap)?
+
 ## What problem does this code solve?
 
 Manual reporting is a time suck. My friend (a client) asked for some help...
